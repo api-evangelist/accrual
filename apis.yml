@@ -1,8 +1,26 @@
 aid: accrual
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/accrual.png
 name: Accrual
-description: 'Accrual is a company surfaced as a portfolio company of general-catalyst and added to the
-  API Evangelist network as a stub for enrichment. Sector: fintech. This profile is a lead awaiting the
-  enrichment pipeline.'
+description: 'Accrual is an augmented accounting intelligence platform for accounting
+  firms and growing service businesses, offering what it calls the complete accounting
+  workspace spanning engagement management, document intake, data processing, tax
+  return generation, assurance workflows, and client collaboration. Backed by General
+  Catalyst, the company emphasizes secure, US-hosted infrastructure with AES-256 encryption
+  at rest, TLS in transit, data isolation, and SOC 2 Type II attestation, and states
+  that customer data is not used to train AI models. Accrual does not publish a public
+  API or developer program at this time; this profile captures the company identity
+  and its published security posture.'
 url: https://raw.githubusercontent.com/api-evangelist/accrual/refs/heads/main/apis.yml
 x-type: company
 x-source: general-catalyst-portfolio
@@ -14,9 +32,52 @@ modified: '2026-07-17'
 tags:
 - Company
 - Fintech
+- Accounting
+- Tax
+- Assurance
+- Accounting Software
+- Artificial Intelligence
+- SaaS
 apis: []
+common:
+- type: Website
+  url: https://www.accrual.com
+- type: About
+  url: https://www.accrual.com/about
+- type: Blog
+  url: https://www.accrual.com/insights
+- type: Support
+  url: https://www.accrual.com/contact
+- type: SignUp
+  url: https://app.accrual.com
+- type: Login
+  url: https://app.accrual.com
+- type: TermsOfService
+  url: https://auth.accrual.com/legal/terms
+- type: PrivacyPolicy
+  url: https://auth.accrual.com/legal/privacy
+- type: Security
+  url: https://www.accrual.com/security
+- type: TrustCenter
+  url: https://trust.accrual.com
+- type: Compliance
+  url: https://www.accrual.com/security
+- type: VulnerabilityDisclosure
+  url: security/accrual-vulnerability-disclosure.yml
+- type: TrustCenter
+  url: security/accrual-trust-center.yml
+  name: Trust Center artifact
+- type: DomainSecurity
+  url: security/accrual-domain-security.yml
+- type: LLMsTxt
+  url: llms/accrual-llms.txt
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
