@@ -1,0 +1,20 @@
+# Accrual
+
+> Accrual is an augmented accounting intelligence platform for accounting firms and growing service businesses — a complete accounting workspace spanning engagement management, document intake, data processing, tax return generation, assurance workflows, and client collaboration. Backed by General Catalyst. US-hosted, SOC 2 Type II attested. No public API or developer program is published at this time.
+
+## Company
+- [Website](https://www.accrual.com): Product overview and augmented accounting intelligence platform.
+- [About](https://www.accrual.com/about): Company background.
+- [Insights](https://www.accrual.com/insights): Accrual blog and articles.
+- [Application login / sign up](https://app.accrual.com): Customer application.
+
+## Security
+- [Security](https://www.accrual.com/security): Security posture — SOC 2 Type II, AES-256 at rest, TLS in transit, US-only hosting, coordinated vulnerability disclosure via security@accrual.com.
+- [Trust Center](https://trust.accrual.com): Security and compliance portal.
+
+## Legal
+- [Terms of Service](https://auth.accrual.com/legal/terms)
+- [Privacy Policy](https://auth.accrual.com/legal/privacy)
+
+## Contact
+- [Contact](https://www.accrual.com/contact): Support and sales contact.

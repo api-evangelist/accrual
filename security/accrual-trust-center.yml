@@ -1,0 +1,18 @@
+generated: '2026-07-17'
+method: searched
+source: https://www.accrual.com/security
+url: https://trust.accrual.com
+certifications:
+- SOC 2 Type II
+compliance_notes: Accrual partners with a top-tier auditor for SOC 2 Type II and penetration
+  tests. Data is encrypted with AES-256 at rest and TLS in transit, tenant data is
+  isolated, hosting is US-only, and customer data is not used to train AI models.
+evidence:
+- source: https://www.accrual.com/security
+  keywords:
+  - soc 2 type ii
+  - penetration test
+  - trust center
+- source: https://trust.accrual.com
+  keywords:
+  - accrual trust center
